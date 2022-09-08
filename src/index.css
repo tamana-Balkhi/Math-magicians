@@ -28,12 +28,8 @@ body {
 
 #calculator-container {
   height: 50%;
-}
-
-#calculator {
-  height: 100%;
-  max-width: 380px;
   background: #eee;
+  width: 400px;
 }
 
 #input-result {
