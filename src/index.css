@@ -4,8 +4,12 @@
   padding: 0;
 }
 
+html,
 body {
   height: 100vh;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-FSbNJozo_GTaX0boP3r4xeFpni1tXA9xCw&usqp=CAU');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #root {
@@ -30,6 +34,7 @@ body {
   height: 50%;
   background: #eee;
   width: 400px;
+  margin-bottom: 10px;
 }
 
 #input-result {
@@ -64,4 +69,88 @@ button:nth-child(17) {
 
 .oprand {
   background-color: #f5913e;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #fff6e5;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  border-bottom: 3px solid #000;
+}
+
+#navbar {
+  width: 100%;
+  max-width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav-links a {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+#nav-links a:hover {
+  color: #cfa9ff;
+}
+
+#nav-links a:hover::after {
+  content: "";
+  align-self: center;
+  width: 20px;
+  height: 5px;
+  background-color: #cfa9ff;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-top: 2rem;
+  gap: 1.5rem;
+  width: 70%;
+  font-size: 1.5rem;
+}
+
+#home h1 {
+  font-size: 3rem;
+}
+
+.homeContent {
+  font-size: 20px;
+  color: rgb(52, 38, 114);
+  font-weight: 400;
+  font-family: 'Montserrat', serif;
+  line-height: 30px;
+  padding: 10px 250px 0 0;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 70%;
+  font-size: 2.5rem;
+  line-height: 60px;
+  text-align: center;
+  font-style: italic;
+  color: rgb(52, 38, 114);
+}
+
+#quote span {
+  font-weight: bolder;
 }
