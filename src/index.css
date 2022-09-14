@@ -124,12 +124,10 @@ header {
   gap: 1.5rem;
   width: 70%;
   font-size: 1.5rem;
- 
 }
 
 #home h1 {
   font-size: 3rem;
-
 }
 
 .homeContent {
@@ -140,7 +138,6 @@ header {
   line-height: 30px;
   padding: 10px 250px 0 0;
 }
-
 
 #quote {
   display: flex;
