@@ -20,6 +20,7 @@ function Calculator() {
       </div>
 
       <div id="btn-container">
+        <p>calculate numbers</p>
         <button type="button" onClick={handleClick} className="btn">AC</button>
         <button type="button" onClick={handleClick} className="btn">+/-</button>
         <button type="button" onClick={handleClick} className="btn">%</button>
