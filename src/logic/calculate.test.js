@@ -9,15 +9,15 @@ test('AC button returns object props equal null', () => {
     total: null,
   };
   calculate({}, 'AC');
-  expect(obj.next).toBe(null);   
+  expect(obj.next).toBe(null);
 });
 
 test('testing addition ', () => {
   const obj = {
-    next:2,
+    next: 2,
     operation: '+',
     total: 5,
   };
-  calculate({next: '2', operation: '+', total: '3'}, '+');
-  expect(obj.next).toBe(2);   
+  calculate({ next: '2', operation: '+', total: '3' }, '+');
+  expect(obj.next).toBe(2);
 });

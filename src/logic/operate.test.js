@@ -12,7 +12,7 @@ describe('Test operations with numbers', () => {
   test('+ sign', () => {
     expect(operate(6, 4, '+')).toBe('10');
   });
-   test("-" , () => {
+  test('-', () => {
     expect(operate(6, 4, '-')).toBe('2');
   });
 });
